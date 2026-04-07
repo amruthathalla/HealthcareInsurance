@@ -21,6 +21,11 @@ Thumbs.db
 ## Streamlit
 .streamlit/
 
+# Large binary files (add these if you want to keep them local only)
+*.pbix
+*.pkl
+*.csv
+
 ## Data artifacts (keep raw data, ignore temp outputs)
 reports/
 **/*.log
