@@ -74,6 +74,6 @@ Created additional features to improve analysis:
 
 ## Dashboard Preview
 
-*(<img width="1525" height="1097" alt="Screenshot 2026-03-28 175318" src="https://github.com/user-attachments/assets/5c7d80fc-9011-4e6d-9a60-6d98f6cbc058" />
-)*
+<img width="1525" height="1097" alt="Screenshot 2026-03-28 175318" src="https://github.com/user-attachments/assets/5c7d80fc-9011-4e6d-9a60-6d98f6cbc058" />
+
 
