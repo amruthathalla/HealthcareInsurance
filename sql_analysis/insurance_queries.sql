@@ -1,5 +1,5 @@
 -- ============================================================
--- Phase 5 (Beginner): SQL Analysis for Insurance Dataset
+-- SQL Analysis for Insurance Dataset
 -- Goal: Reproduce the same core insights from Python in SQL.
 -- ============================================================
 
@@ -148,7 +148,7 @@ SELECT
         WHEN bmi < 18.5 THEN 'Underweight'
         WHEN bmi >= 18.5 AND bmi < 25 THEN 'Normal'
         WHEN bmi >= 25 AND bmi < 30 THEN 'Overweight'
-        ELSE 'Obese'
+        ELSE 'Obese' 
     END AS bmi_category,
     COUNT(*) AS total_people,
     ROUND(AVG(charges), 2) AS avg_charges
@@ -160,9 +160,9 @@ ORDER BY avg_charges DESC;
 -- STEP 8) Final insight template
 -- -----------------------------
 -- Fill these from your query results:
--- 1) Total records = ______
--- 2) Average charges = ______
--- 3) Smoking effect (avg yes/no) = about ____x
--- 4) Highest-cost BMI category = ______
--- 5) Region differences are (small/moderate/large) compared to smoking effect
+-- 1) Total records = 1338
+-- 2) Average charges = 13270.42
+-- 3) Smoking effect (avg yes/no) = about 3.8x
+-- 4) Highest-cost BMI category = Obese
+-- 5) Region differences are (small/moderate/large) compared to smoking effect → small
 -- 6) Highest-cost segment is usually smoker + obese
