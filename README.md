@@ -56,53 +56,55 @@ healthcare-insurance-analysis/
 The dataset contains the following features:
 
 Feature	Description
-age -	Age of the individual
-sex	- Gender (male/female)
-bmi	- Body Mass Index
-children - Number of dependents
-smoker -	Smoking status
-region - Residential region
-charges -	Medical insurance cost
+- age -	Age of the individual
+- sex	- Gender (male/female)
+- bmi	- Body Mass Index
+- children - Number of dependents
+- smoker -	Smoking status
+- region - Residential region
+- charges -	Medical insurance cost
 
 ## Key Insights
-🚬 Smokers have significantly higher insurance costs
-⚖️ Higher BMI → Higher medical expenses
-👨‍👩‍👧 More children slightly increase cost
-🌍 Region has minimal impact compared to smoking
+- 🚬 Smokers have significantly higher insurance costs
+- ⚖️ Higher BMI → Higher medical expenses
+- 👨‍👩‍👧 More children slightly increase cost
+- 🌍 Region has minimal impact compared to smoking
 
 ## Machine Learning Model
 Model trained to predict insurance charges
 Input features:
-Age
-Sex
-BMI
-Children
-Smoker
-Region
+- Age
+- Sex
+- BMI
+- Children
+- Smoker
+- Region
 Handles:
-Raw categorical input (pipeline model)
-Legacy encoded input (fallback)
+- Raw categorical input (pipeline model)
+- Legacy encoded input (fallback)
 
 ## Streamlit Web App
 Features:
-📊 Dataset Explorer
-📈 Visual Insights
-💰 Insurance Cost Predictor
+- 📊 Dataset Explorer
+- 📈 Visual Insights
+- 💰 Insurance Cost Predictor
 Run the app:
-cd streamlit_app
-streamlit run medicalinsurance_frontend.py
+- cd streamlit_app
+- streamlit run medicalinsurance_frontend.py
+<img width="2879" height="1587" alt="Screenshot 2026-04-08 121943" src="https://github.com/user-attachments/assets/f2b83839-2f89-4285-bd73-16a364531ff3" />
+
 
 ## Installation & Setup
 1. Clone Repository
-git clone https://github.com/your-username/healthcare-insurance-analysis.git
-cd healthcare-insurance-analysis
+- git clone https://github.com/your-username/healthcare-insurance-analysis.git
+- cd healthcare-insurance-analysis
 
 2. Create Virtual Environment
-python -m venv .venv
-.venv\Scripts\activate   # Windows
+- python -m venv .venv
+- .venv\Scripts\activate   # Windows
 
 3. Install Dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ## SQL Analysis
 
@@ -110,47 +112,47 @@ SQL file: sql_analysis/insurance_queries.sql
 
 Includes:
 
-Data cleaning checks
-Aggregations
-Business insights
-High-risk segmentation
-Example Insight Query:
+- Data cleaning checks
+- Aggregations
+- Business insights
+- High-risk segmentation
+- Example Insight Query:
 SELECT smoker, AVG(charges)
 FROM insurance
 GROUP BY smoker;
 
 ## Dashboards
 📈 Excel Dashboard
-KPI metrics
-Pivot analysis
-Visual charts
+- KPI metrics
+- Pivot analysis
+- Visual charts
 <img width="1525" height="1097" alt="Screenshot 2026-03-28 175318" src="https://github.com/user-attachments/assets/e6826a19-7116-4aa6-8837-af1d50220e4e" />
 
 📊 Power BI Dashboard
-Interactive filters
-Segment analysis
-Business insights
+- Interactive filters
+- Segment analysis
+- Business insights
 <img width="2101" height="1176" alt="Screenshot 2026-03-28 202119" src="https://github.com/user-attachments/assets/fabea706-64d0-46d0-a67e-8fb2d8947d54" />
 
 ## Future Improvements
-Deploy Streamlit app online (Streamlit Cloud / Render)
-Add model performance metrics (R², RMSE)
-Use advanced models (XGBoost, Random Forest)
-Add user authentication
-Connect real-time database
+- Deploy Streamlit app online (Streamlit Cloud / Render)
+- Add model performance metrics (R², RMSE)
+- Use advanced models (XGBoost, Random Forest)
+- Add user authentication
+- Connect real-time database
 
 ## Tech Stack
-Python (Pandas, NumPy, Scikit-learn)
-SQL (MySQL)
-Streamlit
-Power BI
-Excel
+- Python (Pandas, NumPy, Scikit-learn)
+- SQL (MySQL)
+- Streamlit
+- Power BI
+- Excel
 
 ## Use Cases
-Insurance companies → Risk assessment
-Healthcare analytics → Cost prediction
-Data science portfolio project
-Business decision support
+- Insurance companies → Risk assessment
+- Healthcare analytics → Cost prediction
+- Data science portfolio project
+- Business decision support
 
 ## Author
 
