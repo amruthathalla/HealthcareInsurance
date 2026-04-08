@@ -5,7 +5,9 @@ A beginner-friendly **Streamlit** web application for exploring medical insuranc
 - **Explorer** – browse the dataset, view summary statistics, and see average charges by smoker status and region.
 - **Predictor** – enter age, BMI, number of children, sex, smoking status, and region to get an estimated insurance charge.
 
-<img width="2868" height="1631" alt="Screenshot 2026-04-08 121411" src="https://github.com/user-attachments/assets/7dcd00fe-aeb8-4469-a560-ab3fec6919cf" />
+<img width="2874" height="1596" alt="Screenshot 2026-04-08 121830" src="https://github.com/user-attachments/assets/94a5d37c-eac1-45d3-9f67-28cc04c7925f" />
+<img width="2879" height="1587" alt="Screenshot 2026-04-08 121853" src="https://github.com/user-attachments/assets/bb9f7151-2542-4a77-a15a-504eca51546b" />
+<img width="2879" height="1587" alt="Screenshot 2026-04-08 121943" src="https://github.com/user-attachments/assets/50f803d5-5d17-4bd2-9586-1d470993af46" />
 
 ## Features
 
