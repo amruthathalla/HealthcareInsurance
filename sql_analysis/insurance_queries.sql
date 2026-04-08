@@ -148,7 +148,7 @@ SELECT
         WHEN bmi < 18.5 THEN 'Underweight'
         WHEN bmi >= 18.5 AND bmi < 25 THEN 'Normal'
         WHEN bmi >= 25 AND bmi < 30 THEN 'Overweight'
-        ELSE 'Obese'
+        ELSE 'Obese' 
     END AS bmi_category,
     COUNT(*) AS total_people,
     ROUND(AVG(charges), 2) AS avg_charges
