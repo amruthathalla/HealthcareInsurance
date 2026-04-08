@@ -105,7 +105,8 @@ This allows users to explore the data interactively and customize insights.
 
 ## Dashboard Preview
 
-*(Insert your dashboard image here)*
+<img width="2101" height="1176" alt="Screenshot 2026-03-28 202119" src="https://github.com/user-attachments/assets/fa2e442a-183d-4f45-9edc-19ab7195b08d" />
+
 
 ## Tools Used
 
