@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-MODEL_PATH = PROJECT_ROOT / "model" / "medical_cost_model.pkl"
+MODEL_PATH = Path("D:/healthcare-insurance-analysis/model/medical_cost_model.pkl")
 DATA_PATH = PROJECT_ROOT / "data" / "insurance.csv"
 
 
@@ -41,7 +41,7 @@ def build_input_for_legacy_model(age, sex, bmi, children, smoker, region):
 
 st.set_page_config(page_title="Healthcare Insurance Analysis App", layout="wide")
 st.title("Healthcare Insurance Analysis App")
-st.caption("Beginner-friendly project app: dataset explorer + insurance cost predictor")
+st.caption("Dataset explorer + Insurance cost predictor")
 
 model = load_model()
 df = load_data()
