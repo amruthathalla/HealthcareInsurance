@@ -1,39 +1,55 @@
-# Healthcare Insurance Cost Analysis & Prediction
+# 🏥 Healthcare Insurance Cost Analysis & Prediction
 
-A complete end-to-end Data Analytics + Machine Learning project that analyzes healthcare insurance data and predicts medical costs using real-world features like age, BMI, smoking habits, and region.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![ML](https://img.shields.io/badge/Machine%20Learning-Model-green)
+![SQL](https://img.shields.io/badge/SQL-Analysis-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## Project Overview
+A complete **end-to-end Data Analytics + Machine Learning project** that analyzes healthcare insurance data and predicts medical costs using real-world features such as age, BMI, smoking habits, and region.
 
-This project combines:
+---
 
-📊 Exploratory Data Analysis (EDA)
-🧠 Machine Learning Model
-🗄️ SQL Analysis
-📈 Power BI & Excel Dashboards
-🌐 Interactive Streamlit Web App
+## 📌 Project Overview
 
-to deliver a full-stack data analytics solution.
+This project integrates multiple tools and technologies:
 
-## Objectives
-Understand factors affecting medical insurance costs
-Identify high-risk customer segments
-Build a predictive model for insurance charges
-Present insights through dashboards and web app
-## Project Structure
+- 📊 Exploratory Data Analysis (EDA)
+- 🧠 Machine Learning Model
+- 🗄️ SQL-Based Data Analysis
+- 📈 Power BI & Excel Dashboards
+- 🌐 Interactive Streamlit Web Application
+
+➡️ Delivering a **full-stack data analytics solution**
+
+---
+
+## 🎯 Objectives
+
+- Understand factors affecting medical insurance costs  
+- Identify high-risk customer segments  
+- Build a predictive model for insurance charges  
+- Present insights through dashboards and web app  
+
+---
+
+## 📂 Project Structure
+
+```bash
 healthcare-insurance-analysis/
 │
-├── data/                      # Dataset (insurance.csv)
-├── python_analysis/           # EDA & preprocessing
-├── sql_analysis/              # SQL queries for insights
-├── excel_dashboard/           # Excel dashboard
-├── powerbi_dashboard/         # Power BI dashboard
-├── model/                     # Trained ML model (.pkl)
-├── streamlit_app/             # Streamlit frontend app
-├── app/ / src/                # Supporting scripts
-├── visuals/                   # Charts & images
-├── .venv/                     # Virtual environment
-├── requirements.txt           # Dependencies
-└── README.md                  # Project documentation
+├── data/ # Dataset (insurance.csv)
+├── python_analysis/ # EDA & preprocessing
+├── sql_analysis/ # SQL queries
+├── excel_dashboard/ # Excel dashboard
+├── powerbi_dashboard/ # Power BI dashboard
+├── model/ # Trained ML model (.pkl)
+├── streamlit_app/ # Streamlit app
+├── app/ / src/ # Supporting scripts
+├── visuals/ # Charts & assets
+├── requirements.txt # Dependencies
+└── README.md # Documentation
+```
 
 ## Dataset Description
 
@@ -47,11 +63,13 @@ children - Number of dependents
 smoker -	Smoking status
 region - Residential region
 charges -	Medical insurance cost
+
 ## Key Insights
 🚬 Smokers have significantly higher insurance costs
 ⚖️ Higher BMI → Higher medical expenses
 👨‍👩‍👧 More children slightly increase cost
 🌍 Region has minimal impact compared to smoking
+
 ## Machine Learning Model
 Model trained to predict insurance charges
 Input features:
@@ -64,6 +82,7 @@ Region
 Handles:
 Raw categorical input (pipeline model)
 Legacy encoded input (fallback)
+
 ## Streamlit Web App
 Features:
 📊 Dataset Explorer
