@@ -5,7 +5,7 @@ A beginner-friendly **Streamlit** web application for exploring medical insuranc
 - **Explorer** – browse the dataset, view summary statistics, and see average charges by smoker status and region.
 - **Predictor** – enter age, BMI, number of children, sex, smoking status, and region to get an estimated insurance charge.
 
-![App screenshot placeholder](https://via.placeholder.com/800x400?text=Healthcare+Insurance+App)
+<img width="2868" height="1631" alt="Screenshot 2026-04-08 121411" src="https://github.com/user-attachments/assets/7dcd00fe-aeb8-4469-a560-ab3fec6919cf" />
 
 ## Features
 
@@ -80,7 +80,8 @@ Smoker: yes
 
 Region: southeast
 
-Click Predict Insurance Cost to see an estimated charge, e.g., $23,450.00. The app also shows a risk note when smoking or high BMI is detected.
+Click Predict Insurance Cost to see an estimated charge, e.g., $28,287.06. 
+The app also shows a risk note when smoking or high BMI is detected.
 
 ## Customisation
 **Model retraining:** Replace model/medical_cost_model.pkl with your own model. Ensure the input format matches the one expected by the predict() method. The code tries raw input first (age, sex, bmi, children, smoker, region) and falls back to the legacy encoded format.
